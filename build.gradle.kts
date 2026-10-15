@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.example"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     mavenLocal()
@@ -15,5 +15,5 @@ java {
 }
 
 dependencies {
-    compileOnly("jp.takoa.mojibattle:mojibattle-api:0.4.0")
+    compileOnly("jp.takoa.mojibattle:mojibattle-api:0.5.0")
 }
